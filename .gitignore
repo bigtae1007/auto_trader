@@ -1,0 +1,13 @@
+# 가상환경
+.venv/
+__pycache__/
+*.pyc
+
+# 민감 정보
+.env
+
+# 로그, 데이터
+logs/
+data/
+
+strategy/
