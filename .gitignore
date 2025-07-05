@@ -12,3 +12,6 @@ logs/
 data/
 
 strategy/
+
+
+.DS_Store
