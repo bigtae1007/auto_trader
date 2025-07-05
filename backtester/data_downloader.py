@@ -54,7 +54,7 @@ def fetch_and_save_klines(symbol, interval, start_str, end_str, file_path):
 
 def download_all():
     os.makedirs("data", exist_ok=True)
-    # 테스트 항목들
+    # 테스트 항목들을 추가 기간을 설정하면 ./data 폴더안에 생성됩니다.
     # "BTCUSDT", "ETHUSDT", "XRPUSDT"
     symbols = ["BTCUSDT", "ETHUSDT", "XRPUSDT"]
     interval = "1m"
